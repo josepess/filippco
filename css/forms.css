@@ -1,0 +1,27 @@
+.wordsForm{
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 100%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#wordsForm{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 805px) {
+    #wordsForm{
+        max-width: 70%;
+    }    
+}
+
+@media screen and (max-width: 550px) {
+    #wordsForm{
+        max-width: 50%;
+    }    
+}
+
