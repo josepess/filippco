@@ -155,7 +155,15 @@
     right: 0;
     transform: skew(0deg, 30deg);
 }
-
+.moustache{
+    position: absolute;
+    right: -42%;
+    top: 62%;
+    height: 3px; 
+    width: 25px; 
+    margin: 6px;
+    position: relative;
+}
 .right-hind-leg{
     position: absolute;
     right: 65%;
