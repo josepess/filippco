@@ -1,0 +1,59 @@
+.btn-group button{
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: #333;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+.btn-apat{
+    margin: 0 20px 0 20px;
+}
+
+.submit{
+    padding: 10px 10px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: #333;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.submit:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+
+.submit-left-menu{
+    padding: 10px 10px;
+    /* margin: 8px; */
+    height: 40px;
+    cursor: pointer;
+    background-color: #333;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.submit-left-menu:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+@media screen and (max-width: 540px) {
+    .submit-left-menu{
+        width: 60px;
+    }
+}
